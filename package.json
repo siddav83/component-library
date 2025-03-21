@@ -1,0 +1,16 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "A demonstration of GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "demo"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
