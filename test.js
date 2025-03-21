@@ -1,4 +1,4 @@
-const { add } = require('./app');
+const { add, subract } = require('./app');
 
 // A simple test
 if (add(2, 3) !== 5) {
@@ -9,6 +9,14 @@ if (add(2, 3) !== 5) {
 if (add(-1, 1) !== 0) {
   console.error('Test failed: -1 + 1 should equal 0');
   process.exit(1);
+}
+
+if (subraction(5, 3) !== 2) {
+  console.error('Test failed: -5 - 3 should equal 2');
+}
+
+if (subract(3, -3) !== 0) {
+  console.error('Test failed 3 - -3 should equal 0');
 }
 
 console.log('All tests passed!');
