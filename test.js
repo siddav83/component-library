@@ -11,7 +11,7 @@ if (add(-1, 1) !== 0) {
   process.exit(1);
 }
 
-if (subraction(5, 3) !== 2) {
+if (subract(5, 3) !== 2) {
   console.error('Test failed: -5 - 3 should equal 2');
 }
 
