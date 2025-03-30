@@ -1,0 +1,23 @@
+button {
+  outline: none;
+  border: none;
+  border-radius: 14px;
+  width: 44px;
+  height: 22px;
+  padding: 0;
+  background-color: aqua;
+  position: relative;
+}
+
+#toggle-handle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+#toggle-handle.active {
+  left: 24px;
+}
